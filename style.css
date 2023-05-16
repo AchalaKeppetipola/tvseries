@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto|Tapestry|Lobster');
+
+
+#photo{
+    height: 700px;
+    margin: 15px;
+    float: left;
+    width: 200px;
+    background-color: bisque;
+}
+
+#myName, #jobTitle{
+    color:burlywood;
+}
+#intro{
+    float: left;
+    text-align: justify;
+    width:1500px ;
+    margin: 5px;
+    margin-top: 17px;
+
+}
+#aboutHead{
+    background-color: bisque;
+    color:burlywood;
+    width:200px;
+    font-family: "Josefin Sans";
+}
+nav a{
+    text-decoration: none;
+    margin-right: 17px;
+    color: black;
+    border-bottom: 3px dashed black;
+   
+
+    
+}
+nav a:hover{
+    background-color: whitesmoke;
+    
+}
+body{
+    background-color: lightgoldenrodyellow;
+    font-family: "Josefin Sans";
+}
+nav{
+    float:right;
+    margin-right: 150px;
+}

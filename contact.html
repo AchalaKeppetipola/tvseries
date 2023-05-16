@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact</h1>
+    <video src="city.mp4" width="400" height="300" preload="auto" controls loop></video>
+    <audio src="audio.mp3" controls autoplay><p>Our audio format</p></audio>
+
+    <input type="search" name="search" placeholder="search keywords"><br>
+    <br>
+    <form method="get">
+        <fieldset>
+            <legend>Personal Info</legend>
+        <p>
+        <label for="Fname">First Name:</label>
+        <input type="text" maxlength="15" required>
+        </p>
+        <p>
+            <label for="Lname">Last Name:</label> 
+            <input type="text" maxlength="15">
+        </p>
+     
+        <p>
+            <label for="gender">Gender:</label>
+             <input type="radio" name="gender" value="Male">Male 
+            <input type="radio" name="gender" value="Female">Female 
+            <input type="radio" name="gender" value="NA">Prefer not to mention
+        </p>
+        <p>
+            <label for="dd">Resignation Date:</label>
+            <input type="date" name="date">
+            </p>
+        </fieldset><br>
+            <fieldset>
+                <legend>Contact Info</legend>
+        <label for="email">E-mail:</label>
+        <input type="email">
+        <p>
+
+           <label for="address">Address:</label> 
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+           <label for="country">Country:</label> 
+        <select name="country" id="country" size="3">
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="UK">UK</option>
+            <option  value="Germany">Germany</option>
+            <option value="Spain">Spain</option>
+            <option value="Finland">Finland</option>
+            <option value="Japan">Japan</option>
+            <option value="Brazil">Brazil</option>
+            <option value="England">England</option>
+        </select>
+        </p>
+    </fieldset>
+    <fieldset>
+            <legend>Other</legend>
+   
+        <p>
+           <label for="preferences">Preferences:</label>  
+             <input type="checkbox" value-="Fantasy" name="Preferences"> Fantasy
+                        <input type="checkbox" value="Comedy" name="Preferences"> Comedy
+                        <input type="checkbox" value="Action" name="Preferences"> Action
+                        <input type="checkbox" value="Thriller" name="Preferences">Thriller
+        </p>
+        <p>
+           <label for="pin">PIN:</label> 
+              <input type="password" maxlength="3">
+        </p>
+      
+        <p>
+           <label for="cv">CV:</label> 
+            <input type="file">
+        </p>
+
+    </fieldset>
+        <p>
+            <input type="button" value="Send Copy" name="sendCopy">
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+</html>

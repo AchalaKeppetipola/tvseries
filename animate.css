@@ -1,0 +1,13 @@
+
+
+@media screen and (width:600px){
+    body{color:blue}
+}
+@media(orientation: landscape) {
+    body{
+        color: rebeccapurple;
+    }
+}
+*{
+    box-sizing: border-box;
+}
